@@ -1,6 +1,6 @@
 import java.util.Date;
 public abstract class Veiculo {
-    public String nome;
+    public String marca;
     public double potencia;
     public Date dataProducao;
 
