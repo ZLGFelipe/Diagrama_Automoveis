@@ -1,10 +1,12 @@
+import java.util.Date;
 public class Caminhao extends Veiculo {
     int capacidade;
 
-    Caminhao(String marca, double potencia, int capacidade) {
+    Caminhao(String marca, Date dataProducao, double potencia, int capacidade) {
         this.marca = marca;
         this.potencia = potencia;
         this.capacidade = capacidade;
+        this.dataProducao = dataProducao;
     } 
 
     @Override
